@@ -1,9 +1,3 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
-import re
-from fastapi.middleware.cors import CORSMiddleware
-
-```python
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
